@@ -15,26 +15,26 @@ $(function () {
   const playPreviousTrackButton = $("#play-previous");
   const playNextTrackButton = $("#play-next");
   const albums = [
-    "Me & You",
-    "Dawn",
-    "Electro Boy",
-    "Home",
-    "Proxy (Original Mix)"
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "The last of us"
   ];
   const trackNames = [
-    "Alex Skrindo - Me & You",
-    "Skylike - Dawn",
-    "Kaaze - Electro Boy",
-    "Jordan Schor - Home",
-    "Martin Garrix - Proxy"
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "The last of us"
   ];
   const albumArtworks = ["_1", "_2", "_3", "_4", "_5"];
   const trackUrl = [
-    "https://singhimalaya.github.io/Codepen/assets/music/1.mp3",
-    "https://singhimalaya.github.io/Codepen/assets/music/2.mp3",
-    "https://singhimalaya.github.io/Codepen/assets/music/3.mp3",
-    "https://singhimalaya.github.io/Codepen/assets/music/4.mp3",
-    "https://singhimalaya.github.io/Codepen/assets/music/5.mp3"
+    "https://audio.jukehost.co.uk/FzjqjuwA9pwYVKeypNMn7avyVB6SXy6u",
+    "https://audio.jukehost.co.uk/Tpwu6IPAxeR48cSs4TwNc0KK9kOeS2wY",
+    "https://audio.jukehost.co.uk/RXRuCHodrifMqvNhdv13VRoZ5Wox0qs6",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
+    "https://audio.jukehost.co.uk/wdwA8IQ9ohNW62QXEjh6iIOR1CH7YRhO"
   ];
 
   let bgArtworkUrl,
