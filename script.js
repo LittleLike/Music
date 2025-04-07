@@ -15,26 +15,26 @@ $(function () {
   const playPreviousTrackButton = $("#play-previous");
   const playNextTrackButton = $("#play-next");
   const albums = [
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "the last of us"
+    "Me & You",
+    "Dawn",
+    "Electro Boy",
+    "Home",
+    "Proxy (Original Mix)"
   ];
   const trackNames = [
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "the last of us"
+    "Alex Skrindo - Me & You",
+    "Skylike - Dawn",
+    "Kaaze - Electro Boy",
+    "Jordan Schor - Home",
+    "Martin Garrix - Proxy"
   ];
   const albumArtworks = ["_1", "_2", "_3", "_4", "_5"];
   const trackUrl = [
-    "https://audio.jukehost.co.uk/FzjqjuwA9pwYVKeypNMn7avyVB6SXy6u",
-    "https://audio.jukehost.co.uk/Tpwu6IPAxeR48cSs4TwNc0KK9kOeS2wY",
-    "https://audio.jukehost.co.uk/RXRuCHodrifMqvNhdv13VRoZ5Wox0qs6",
-    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
-    "https://audio.jukehost.co.uk/wdwA8IQ9ohNW62QXEjh6iIOR1CH7YRhO"
+    "https://singhimalaya.github.io/Codepen/assets/music/1.mp3",
+    "https://singhimalaya.github.io/Codepen/assets/music/2.mp3",
+    "https://singhimalaya.github.io/Codepen/assets/music/3.mp3",
+    "https://singhimalaya.github.io/Codepen/assets/music/4.mp3",
+    "https://singhimalaya.github.io/Codepen/assets/music/5.mp3"
   ];
 
   let bgArtworkUrl,
@@ -228,7 +228,7 @@ $(function () {
 
     selectTrack(0);
 
-    audio.loop = true;
+    audio.loop = false;
 
     playPauseButton.on("click", playPause);
 
