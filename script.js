@@ -19,6 +19,20 @@ $(function () {
     "Silent hill",
     "Silent hill",
     "Silent hill",
+    "The last of us",
+    "The last of us",
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "The last of us",
+    "The last of us","Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "The last of us",
+    "The last of us",
+    "The last of us",
     "The last of us"
   ];
   const trackNames = [
@@ -26,15 +40,44 @@ $(function () {
     "Silent hill",
     "Silent hill",
     "Silent hill",
+    "The last of us",
+    "The last of us",
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "The last of us",
+    "The last of us","Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "Silent hill",
+    "The last of us",
+    "The last of us",
+    "The last of us",
     "The last of us"
-  ];
-  const albumArtworks = ["_1", "_2", "_3", "_4", "_5"];
+  ]
+  const albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10", "_11", "_12", "_13", "_14", "_15", "_16", "_17", "_18", "_19"];
   const trackUrl = [
     "https://audio.jukehost.co.uk/FzjqjuwA9pwYVKeypNMn7avyVB6SXy6u",
     "https://audio.jukehost.co.uk/Tpwu6IPAxeR48cSs4TwNc0KK9kOeS2wY",
     "https://audio.jukehost.co.uk/RXRuCHodrifMqvNhdv13VRoZ5Wox0qs6",
     "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
-    "https://audio.jukehost.co.uk/wdwA8IQ9ohNW62QXEjh6iIOR1CH7YRhO"
+    "https://audio.jukehost.co.uk/wdwA8IQ9ohNW62QXEjh6iIOR1CH7YRhO",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
+    "https://audio.jukehost.co.uk/FzjqjuwA9pwYVKeypNMn7avyVB6SXy6u",
+    "https://audio.jukehost.co.uk/Tpwu6IPAxeR48cSs4TwNc0KK9kOeS2wY",
+    "https://audio.jukehost.co.uk/RXRuCHodrifMqvNhdv13VRoZ5Wox0qs6",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
+    "https://audio.jukehost.co.uk/wdwA8IQ9ohNW62QXEjh6iIOR1CH7YRhO",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
+    "https://audio.jukehost.co.uk/wdwA8IQ9ohNW62QXEjh6iIOR1CH7YRhO",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
+    "https://audio.jukehost.co.uk/wdwA8IQ9ohNW62QXEjh6iIOR1CH7YRhO",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH",
+    "https://audio.jukehost.co.uk/ujueLVDVxrt6C9pM24ekpmF8n5XYJvbH"
   ];
 
   let bgArtworkUrl,
