@@ -18,7 +18,7 @@ body {
 
 body {
   margin: 0;
-  background-color: #313131;
+  background-color: #420092;
 }
 
 #player-container {
@@ -69,7 +69,7 @@ body {
   right: 15px;
   left: 15px;
   padding: 13px 22px 10px 184px;
-  background-color: #7c0000;
+  background-color: #212121;
   border-radius: 15px 15px 0 0;
   transition: 0.3s ease top;
   z-index: 1;
@@ -116,7 +116,7 @@ body {
 
 #track-time.active #current-time,
 #track-time.active #track-length {
-  color: #f86d92;
+  color: #6d87f8;
   background-color: transparent;
 }
 
@@ -172,7 +172,7 @@ body {
 #player-content {
   position: relative;
   height: 100%;
-  background-color: #fff;
+  background-color: #443574;
   box-shadow: 0 30px 80px #656565;
   border-radius: 15px;
   z-index: 2;
