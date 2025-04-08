@@ -17,68 +17,19 @@ $(function () {
   const albums = [
     "Silent hill",
     "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
     "Silent hill"
   
   ];
   const trackNames = [
     "Silent hill",
     "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
-    "Silent hill",
     "Silent hill"
   ]
-  const albumArtworks = ["_1", "_2", "_3", "_4", "_5", "_6", "_7", "_8", "_9", "_10", "_11", "_12", "_13", "_14", "_15", "_16", "_17", "_18", "_19"];
+  const albumArtworks = ["_1", "_2", "_3"];
   const trackUrl = [
-    "SilentHill2The Darkness.mp3",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "AmbientSilentHill.mp3",
+    "SilentHill3music.mp3",
+    "SilentHillMusic.mp3"
   ];
 
   let bgArtworkUrl,
