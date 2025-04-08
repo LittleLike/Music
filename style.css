@@ -31,7 +31,20 @@ body {
   margin: -4px auto;
 }
 
-
+#player-bg-artwork {
+  position: fixed;
+  top: -30px;
+  right: -30px;
+  bottom: -30px;
+  left: -30px;
+  background-color: #454B4E;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  filter: blur(40px);
+  -webkit-filter: blur(40px);
+  z-index: 1;
+}
 
 #player-bg-layer {
   position: fixed;
