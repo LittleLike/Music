@@ -17,19 +17,22 @@ $(function () {
   const albums = [
     "Silent hill",
     "Silent hill",
-    "Silent hill"
+    "Silent hill",
+    "The Last of Us"
   
   ];
   const trackNames = [
     "Silent hill",
     "Silent hill",
-    "Silent hill"
+    "Silent hill",
+    "The Last of Us"
   ]
-  const albumArtworks = ["_1", "_2", "_3"];
+  const albumArtworks = ["_1", "_2", "_3","_4"];
   const trackUrl = [
     "AmbientSilentHill.mp3",
     "SilentHill3music.mp3",
-    "SilentHillMusic.mp3"
+    "SilentHillMusic.mp3",
+    "Thelastofus.mp3"
   ];
 
   let bgArtworkUrl,
