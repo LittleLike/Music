@@ -10,7 +10,7 @@
 
 body {
   margin: 0;
-  background-color: #060707;
+  background-color: #454B4E;
 }
 *:focus {
   outline: none;
@@ -18,7 +18,7 @@ body {
 
 body {
   margin: 0;
-  background-color: #000000;
+  background-color: #454B4E; 
 }
 
 #player-container {
@@ -37,7 +37,7 @@ body {
   right: -30px;
   bottom: -30px;
   left: -30px;
-  background-image: url("https://github.com/LittleLike/Music/blob/main/The%2BLast%2Bof%2BUs%E2%84%A2%2BPart%2BI_20220824210606.jpg");
+  background-image: url("https://github.com/LittleLike/Music/blob/main/Silenthill.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -128,7 +128,7 @@ body {
 }
 
 #seek-bar-container {
-  background-color: #ffe8ee;
+  background-color: #454B4E;
   cursor: pointer;
 }
 
@@ -173,7 +173,7 @@ body {
   position: relative;
   height: 100%;
   background-color: #443574;
-  box-shadow: 0 30px 80px #656565;
+  box-shadow: 0 30px 80px #454B4E;
   border-radius: 15px;
   z-index: 2;
 }
