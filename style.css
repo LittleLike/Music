@@ -37,7 +37,7 @@ body {
   right: -30px;
   bottom: -30px;
   left: -30px;
-  background-image: url("https://github.com/LittleLike/Music/blob/main/Silenthill.jpg");
+  background-color: #454B4E;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -80,13 +80,13 @@ body {
 }
 
 #album-name {
-  color: #7771a0;
+  color: #2f4650;
   font-size: 17px;
   font-weight: bold;
 }
 
 #track-name {
-  color: #acaebd;
+  color: #7fadbd;
   font-size: 13px;
   margin: 2px 0 13px 0;
 }
@@ -116,7 +116,7 @@ body {
 
 #track-time.active #current-time,
 #track-time.active #track-length {
-  color: #6a83f0;
+  color: #7fadbd;
   background-color: transparent;
 }
 
@@ -154,7 +154,7 @@ body {
 
 #seek-time,
 #s-hover {
-  background-color: #4a4f7a;
+  background-color: #203440;
 }
 
 #seek-bar {
@@ -164,7 +164,7 @@ body {
   bottom: 0;
   left: 0;
   width: 0;
-  background-color: #8763ad;
+  background-color: #3c5e67;
   transition: 0.2s ease width;
   z-index: 1;
 }
@@ -172,7 +172,7 @@ body {
 #player-content {
   position: relative;
   height: 100%;
-  background-color: #443574;
+  background-color: #141c21;
   box-shadow: 0 30px 80px #454B4E;
   border-radius: 15px;
   z-index: 2;
